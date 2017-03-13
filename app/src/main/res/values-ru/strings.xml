@@ -1,0 +1,10 @@
+<resources>
+    <string name="first_name">Введите имя</string>
+    <string name="last_name">Введите фамилия</string>
+    <string name="date">Установите дату</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="get_first_name">полученное имя</string>
+    <string name="get_last_name">полученная фамилия</string>
+    <string name="get_date">полученная дата</string>
+</resources>

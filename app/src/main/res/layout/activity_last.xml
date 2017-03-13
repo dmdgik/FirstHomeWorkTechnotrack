@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="@string/get_first_name"
+        android:textSize="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/getFirstName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/get_last_name"
+        android:textSize="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getLastName"
+        android:layout_below="@+id/getFirstName"
+        android:layout_alignLeft="@+id/getFirstName"
+        android:layout_alignStart="@+id/getFirstName"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:text="@string/get_date"
+        android:textSize="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getDate"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/getLastName"
+        android:layout_alignLeft="@+id/getLastName"
+        android:layout_alignStart="@+id/getLastName" />
+
+    <Button
+        android:text="@string/edit"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getDate"
+        android:layout_alignLeft="@+id/getDate"
+        android:layout_alignStart="@+id/getDate"
+        android:layout_marginTop="79dp"
+        android:id="@+id/edit"
+        android:onClick="onClickEdit"/>
+
+
+</RelativeLayout>

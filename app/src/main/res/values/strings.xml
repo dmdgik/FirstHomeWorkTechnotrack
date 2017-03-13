@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">FirstHomeWorkTechnotrack</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date">Pick Date</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="get_first_name">get First Name</string>
+    <string name="get_last_name">get Last Name</string>
+    <string name="get_date">get Date</string>
+</resources>
